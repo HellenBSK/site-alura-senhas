@@ -108,6 +108,11 @@ body {
     font-size: 24px;
 }
 
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
         flex-direction: row;
@@ -140,10 +145,7 @@ label{
     background-color: #E71B32; 
 }
 
-.parametro-senha-textos{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .media{
     background-color: #FAF408;
